@@ -1,0 +1,64 @@
+body{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    background-color:rgb(224, 228, 235);
+}
+
+.header
+{
+    background-color: #383839;
+    color : #ececec;
+    line-height: 130px;
+    width: 98%;
+    text-align: center;
+    margin: auto;
+}
+
+.konten
+{
+    margin-top: 2pc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.border
+{
+    color: #142d4c;
+    margin: 1pc;
+    margin-top: 0.4pc;
+    text-align: justify;
+    border: 3px solid;
+    border-color: #142d4c;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20%;
+    height: 350px;
+    background-color: #ececec;
+}
+
+.border h3 a:hover
+{
+    color: #4f6989
+}
+
+.border h3 a
+{
+    text-decoration: none;
+    color: #142d4c;
+}
+
+.border h1{
+    color: azure;
+    font-weight: bold;
+    text-align: center;
+    line-height: 85px;
+    background-image: url(https://img.freepik.com/free-photo/closeup-developer-hands-typing-code-keyboard-while-looking-computer-screens-with-programming-interface-software-programmer-sitting-desk-with-clipboard-writing-algorithm_482257-33551.jpg?w=1380&t=st=1695257407~exp=1695258007~hmac=b4359e9fe7651bc9860759556fafa1d1edac95acb5018c5c221b7f4aa957107a);
+    background-size: cover;
+}
+
+.border p{
+    margin-top: 0.2pc;
+    font-size:13px;
+}
